@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class TodoServices {
-  static String baseUrl = 'http://172.24.0.1:5000/category';
+  static String baseUrl = 'Use your api';
   static Future<bool> deleteData(int id) async {
     final url = '$baseUrl/$id';
     final uri = Uri.parse(url);
